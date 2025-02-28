@@ -14,7 +14,7 @@ provider "aws" {
 resource "aws_vpc" "main" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    Name = "Terraform_vpc"
+    Name = "new_vpc"
   }
 }
 resource "aws_internet_gateway" "gw" {
